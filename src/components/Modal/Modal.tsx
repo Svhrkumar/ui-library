@@ -114,7 +114,7 @@ const ModalHeader: FC<ModalProps> = ({ className, children }) => {
 		<ModalHeaderTheme className={classNames(className)}>
 			{children}
 			<MdClose
-				style={{ cursor: 'pointer' }}
+				style={{ cursor: 'pointer', padding: '2px 6px' }}
 				onClick={() => {
 					// Access onClose from context
 
