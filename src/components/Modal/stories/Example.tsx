@@ -1,3 +1,4 @@
+import Button from '../../Button';
 import Modal, { ModalProps } from '../Modal';
 
 const Example = (args: ModalProps) => {
@@ -15,7 +16,7 @@ const Example = (args: ModalProps) => {
 				</p>
 			</Modal.Content>
 			<Modal.Footer>
-				<button>Close</button>
+				<Button onClick={() => null}>Close</Button>
 			</Modal.Footer>
 		</Modal>
 	);

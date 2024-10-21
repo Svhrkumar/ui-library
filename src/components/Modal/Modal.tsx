@@ -51,7 +51,7 @@ const ModalContentTheme = styled.div`
 `;
 
 const ModalHeaderTheme = styled.div`
-	padding: 0.5rem;
+	padding: 0.2rem 0.5rem;
 	border-bottom: 1px solid #d1d1d1;
 	width: 100%;
 	display: flex;
@@ -114,7 +114,7 @@ const ModalHeader: FC<ModalProps> = ({ className, children }) => {
 		<ModalHeaderTheme className={classNames(className)}>
 			{children}
 			<MdClose
-				style={{ cursor: 'pointer', padding: '2px 6px' }}
+				style={{ cursor: 'pointer', padding: '2px 12px' }}
 				onClick={() => {
 					// Access onClose from context
 
